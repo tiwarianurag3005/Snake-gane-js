@@ -31,17 +31,44 @@ body {
   #creditLine {
     margin-top: 20px;
     font-size: 16px;
-    color: #FFD700;      /* Golden yellow */
+    color: #FFD700;
     font-style: italic;
     user-select: none;
-    text-align: center;
     animation: fadeIn 2s ease forwards;
-    opacity: 0;          /* Start invisible */
+    opacity: 0;
   }
   
   @keyframes fadeIn {
     to {
       opacity: 1;
     }
+  }
+  
+  #arrowIndicator {
+    font-size: 28px;
+    color: #FFD700;
+    margin-bottom: 8px;
+    height: 28px;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Mobile Control Arrows */
+  .mobile-controls {
+    margin-top: 10px;
+  }
+  
+  .arrow-btn {
+    font-size: 24px;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #444;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .arrow-btn:hover {
+    background-color: #666;
   }
   
