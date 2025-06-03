@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🐍 Snake Game</h1>
+  <p>
+    Score: <span id="score">0</span> | 
+    High Score: <span id="highScore">0</span>
+  </p>
+
+  <div class="controls">
+    <label for="difficulty">Difficulty:</label>
+    <select id="difficulty">
+      <option value="200">Easy</option>
+      <option value="120" selected>Medium</option>
+      <option value="70">Hard</option>
+    </select>
+    <button id="restartBtn">🔁 Restart</button>
+  </div>
+
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+  
+  <div id="creditLine">Made by Anurag Tiwari</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

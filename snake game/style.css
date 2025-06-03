@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    margin-top: 10px;
+  }
+  
+  canvas {
+    background-color: #222;
+    border: 2px solid white;
+    margin-top: 10px;
+  }
+  
+  .controls {
+    margin: 10px;
+  }
+  
+  select, button {
+    padding: 6px 12px;
+    margin: 0 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #creditLine {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #FFD700;      /* Golden yellow */
+    font-style: italic;
+    user-select: none;
+    text-align: center;
+    animation: fadeIn 2s ease forwards;
+    opacity: 0;          /* Start invisible */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
